@@ -1,0 +1,19 @@
+$color-dost-primary: #0077B6; // Science Blue
+$color-dost-secondary: #00B7B3; // Aqua Green
+$color-admin-background: #F4F7F9;
+
+// Global Admin UI Overrides
+.app-header {
+  // Apply the primary color to the Admin header bar
+  background-color: $color-dost-primary; 
+}
+
+.nav__link.active {
+  // Use the secondary color for the active navigation link 
+  border-left-color: $color-dost-secondary;
+}
+
+// Ensure the main content area has the clean background
+.payload__admin {
+  background-color: $color-admin-background;
+}
